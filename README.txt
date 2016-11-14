@@ -37,7 +37,7 @@ Steps to download/implement in your workstation
 8)Select the buycase/buycase.sql file as the database(If max size is less than 9 MN then change your wamp settings by "http://stackoverflow.com/questions/20264324/how-to-import-1gb-sql-file-to-wamp-phpmyadmin").
 9)This may take time so please wait until all the tables have been imported.
 10)Once done,go to localhost/buycase
-11)The Drupal installation menu will open you select choices as shown in buycase/screenshots/screenshots/docx.
+11)The Drupal installation menu will open you select choices as shown in buycase/screenshots/screenshots/docx.(The database name should be same as the one in phpmyadmin(buycase will be database name as you had created it earlier)).
 12)This takes some time once you have completed the installation the site will be shown.
 13)Now,when you click on anylink in the site it will redirect you to localhost(wamp servers homepage).
 14)To solve this enable apache's rewrite_module from the wamp console.
