@@ -1,4 +1,60 @@
 
+BOOKCASE                                                                                                                         
+
+A CMS (Content Management System) Project developed in DRUPAL.
+The website displayed book reviews.
+Primarily books were from following genres: Mysteries, Fiction and Thrillers.
+Users could create accounts, login and read these reviews.
+Users could also comment on the book reviews.
+
+Technologies:
+Drupal 7.5, Wamp, Php, MySql.
+
+Future Implementations:
+•	Add more genres and more books in each genre.
+•	Bridge the Social gap through Facebook pages and Twitter handles.
+•	Collaborate with world renowned authors and publish dates of release of books.
+
+
+This site is hosted on Wamp.
+Wamp server
+Wamp 3.0.4 was used throughout this project 
+U can download it from their official site
+Php any version above 7
+
+
+Views
+View module is extended for creating views.
+
+Steps to download/implement in your workstation
+1)Install Wamp server 
+2)Install Notepad++
+3)Go into www directory of wamp.(wamp's default directory is in C/programfiles/wamp, unless you have changed it during installation.wamp and wamp64 refer to the same directory.(32 bit or g4 bit))
+4)Paste this buycase directory in www directory.
+5)Start your wamp server.
+6)For importing the database ,you need to go to your localhost.phpmyadmin/ and creare a new database named "buycase".
+7)Then open that database in phpmyadmin and click on import button present at rop right corner.
+8)Select the buycase/buycase.sql file as the database(If max size is less than 9 MN then change your wamp settings by "http://stackoverflow.com/questions/20264324/how-to-import-1gb-sql-file-to-wamp-phpmyadmin").
+9)This may take time so please wait until all the tables have been imported.
+10)Once done,go to localhost/buycase
+11)The Drupal installation menu will open you select choices as shown in buycase/screenshots/screenshots/docx.
+12)This takes some time once you have completed the installation the site will be shown.
+13)Now,when you click on anylink in the site it will redirect you to localhost(wamp servers homepage).
+14)To solve this enable apache's rewrite_module from the wamp console.
+15)Now again visit your site localhsot/buycase
+Enjoy the book reviews
+admin login is
+uname:admin
+pw:admin
+Thank you
+
+Also please refer to the Screenshots present at home/screenshots/screenshots.docx.
+If you have any problems u can always pm me at delta501405@gmail.com
+
+
+Below is some information about drupal in general
+
+
 CONTENTS OF THIS FILE
 ---------------------
 
@@ -86,3 +142,4 @@ More about developing:
    http://drupal.org/best-practices
  * Refer to the API documentation:
    http://api.drupal.org/api/drupal/7
+
